@@ -4567,18 +4567,15 @@ function removeNetwork(network) {
 addNetwork({
   name: 'livenet',
   alias: 'mainnet',
-  pubkeyhash: 0x19,
-  privatekey: 0x99,
+  pubkeyhash: 0x3F,
+  privatekey: 0xBF,
   scripthash: 0x55,
   xpubkey: 0x02cfbede,
   xprivkey: 0x02cfbf60,
-  networkMagic: 0x70352205,
-  port: 15714,
+  networkMagic: 0xe5777746,
+  port: 31932,
   dnsSeeds: [
-    'rat4.blackcoin.co',
-    'seed.blackcoin.co',
-    '6.syllabear.us.to',
-    'bcseed.syllabear.us.to'
+    'dnsseed.sandego.net'
   ]
 });
 
@@ -10987,8 +10984,8 @@ URI.isValid = function(arg, knownParams) {
 URI.parse = function(uri) {
   var info = URL.parse(uri, true);
 
-  if (info.protocol !== 'blackcoin:') {
-    throw new TypeError('Invalid blackcoin URI');
+  if (info.protocol !== 'sandego:') {
+    throw new TypeError('Invalid sandego URI');
   }
 
   // workaround to host insensitiveness
@@ -11082,7 +11079,7 @@ URI.prototype.toString = function() {
   _.extend(query, this.extras);
 
   return URL.format({
-    protocol: 'blackcoin:',
+    protocol: 'sandego:',
     host: this.address,
     query: query
   });

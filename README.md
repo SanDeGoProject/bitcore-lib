@@ -1,11 +1,11 @@
-Blackcore Library
+SanDeGocore Library
 =======
 
-A pure and powerful JavaScript Blackcoin library.
+A pure and powerful JavaScript SanDeGo library.
 
 ## Principles
 
-Blackcoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Blackcoin network allows for highly resilient blackcoin infrastructure, and the developer community needs reliable, open-source tools to implement blackcoin apps and services.
+SanDeGo is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the SanDeGo network allows for highly resilient sandego infrastructure, and the developer community needs reliable, open-source tools to implement sandego apps and services.
 
 ## Get Started
 
@@ -18,7 +18,7 @@ npm install
 
 ## Documentation
 
-Blackcore-lib is a for of bitcore. The complete docs are hosted here: [bitcore documentation](http://bitcore.io/guide/). There's also a [bitcore API reference](http://bitcore.io/api/) available generated from the JSDocs of the project, where you'll find low-level details on each bitcore utility.
+SanDeGocore-lib is a for of bitcore. The complete docs are hosted here: [bitcore documentation](http://bitcore.io/guide/). There's also a [bitcore API reference](http://bitcore.io/api/) available generated from the JSDocs of the project, where you'll find low-level details on each bitcore utility.
 
 - [Read the Developer Guide](http://bitcore.io/guide/)
 - [Read the API Reference](http://bitcore.io/api/)
